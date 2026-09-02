@@ -9,4 +9,4 @@ Artisan::command('inspire', function () {
 
 use Illuminate\Support\Facades\Schedule;
 
-Schedule::command('fbr:heartbeat')->everyFifteenMinutes();
+Schedule::command('fbr:heartbeat')->everyMinute();
